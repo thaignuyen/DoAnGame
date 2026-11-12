@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Crawler - 2D Action RPG Game</title>
+  <link rel="stylesheet" href="/css/style.css?v=18.0">
+</head>
+<body>
+
+  <!-- Khung Canvas Game 2D Pixel Art Sắc Nét -->
+  <canvas id="game-canvas"></canvas>
+
+  <!-- Nút Menu Hamburger Bật/Tắt Menu (Phím Tab) -->
+  <div id="tab-hint-pill" class="hamburger-btn" onclick="Game.toggleMenuUI()" title="Mở Menu [Tab]">
+    <div class="hamburger-icon">
+      <span class="ham-line ham-line-1"></span>
+      <span class="ham-line ham-line-2"></span>
+      <span class="ham-line ham-line-3"></span>
+    </div>
+    <span id="hamburger-text" class="hamburger-text">Menu [Tab]</span>
+  </div>
+
+  <!-- Thanh Máu Luôn Ở Chính Giữa Phía Dưới Màn Hình (Tự Động Tắt Khi Bật Tab Menu, Bật Lại Khi Tắt Tab Menu) -->
+  <div id="bottom-health-bar">
+    <div class="bottom-hp-panel">
+      <div id="bottom-level" class="bottom-level-badge">Lv.1</div>
+      <div class="bottom-bar-wrapper">
+        <!-- Hàng Máu HP -->
+        <div class="bottom-bar-row">
+          <span class="bottom-bar-icon" title="Điểm Sinh Mệnh (HP)">❤️</span>
+          <div class="bottom-hp-bg">
+            <div id="bottom-hp-fill" class="bottom-hp-fill"></div>
+            <span id="bottom-hp-text" class="bottom-bar-text">100 / 100</span>
+          </div>
+        </div>
+        <!-- Hàng Thể Lực SP (Chạy nhanh & Lăn né) -->
+        <div class="bottom-bar-row">
+          <span class="bottom-bar-icon" title="Thể Lực (SP)">⚡</span>
+          <div class="bottom-sp-bg">
+            <div id="bottom-sp-fill" class="bottom-sp-fill"></div>
+            <span id="bottom-sp-text" class="bottom-bar-text">100 / 100</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HUD RPG Góc Trên - Tối Giản, Đầy Đủ Thông Tin -->
+  <div id="game-hud" style="display: none;">
+    <div class="hud-panel">
+      <!-- Thanh Máu HP & Thể Lực Stamina -->
+      <div class="bar-container">
+        <div class="bar-label">
+          <span style="color: #ef4444;">❤️ HP</span>
+          <span id="hp-text" style="color: #fca5a5;">100 / 100</span>
+        </div>
+        <div class="hp-bar-bg">
+          <div id="hp-fill" class="hp-bar-fill"></div>
+        </div>
+
+        <div class="bar-label" style="margin-top: 2px;">
+          <span style="color: #22c55e;">⚡ SP</span>
+          <span id="sp-text" style="color: #86efac;">100 / 100</span>
+        </div>
+        <div class="sp-bar-bg">
+          <div id="sp-fill" class="sp-bar-fill"></div>
+        </div>
+      </div>
+
+      <!-- Chỉ số Nhân Vật & Huy Hiệu Chức Nghiệp / Vũ Khí / Ngoại Trang -->
+      <div class="hud-stats">
+        <div class="stat-item badge-location" id="location-badge">🏰 Sảnh Quán Rượu</div>
+        <div class="stat-item badge-level" id="player-level">Lv.1</div>
+        <div class="stat-item badge-gold">🪙 <span id="gold-count">50</span></div>
+        <div class="stat-item badge-kills">⚔️ <span id="kill-count">0</span></div>
+        <div class="stat-item badge-class" id="class-badge" title="Click để chọn chức nghiệp (Phím P)">🥊 Vô Nghề (P)</div>
+        <div class="stat-item badge-weapon" id="weapon-badge">🥊 Thiết Quyền (1-4/Q)</div>
+        <div class="stat-item badge-skin" id="skin-badge">🛡️ Classic (C)</div>
+        <div class="stat-item badge-carry" id="carry-badge" style="display: none;">📦 Đang vác đồ</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thanh Hướng Dẫn Phím Tắt Tinh Gọn Dưới Đáy Màn Hình -->
+  <div id="controls-hint" style="display: none;">
+    <div><span class="key-pill" style="color: #38bdf8; border-color: #38bdf8;">Tab</span> <b>Bật/Tắt Menu HUD</b></div>
+    <div><span class="key-pill">W</span><span class="key-pill">A</span><span class="key-pill">S</span><span class="key-pill">D</span> Di chuyển</div>
+    <div><span class="key-pill">Shift</span> Chạy nhanh</div>
+    <div><span class="key-pill">J</span> Tấn công / Bắn phép</div>
+    <div><span class="key-pill">K</span> Đâm</div>
+    <div><span class="key-pill">L</span> Đập búa</div>
+    <div><span class="key-pill" style="color: #fbbf24; border-color: #fbbf24;">P</span> <b>Chọn Chức Nghiệp</b></div>
+    <div><span class="key-pill" style="color: #38bdf8; border-color: #38bdf8;">F</span> <b>Sử dụng (Tất cả Station & NPC)</b></div>
+    <div><span class="key-pill" style="color: #f59e0b; border-color: #f59e0b;">1-4 / Q</span> Đổi vũ khí (Găng Thiết Quyền/Kiếm Hiệp Sĩ/Lưỡi Hái/Quyền Trượng)</div>
+    <div><span class="key-pill" style="color: #10b981; border-color: #10b981;">C</span> Đổi Ngoại Trang (Hiệp Sĩ/Sát Thủ/Pháp Sư/Champion/Classic)</div>
+    <div><span class="key-pill" style="color: #a855f7; border-color: #a855f7;">G</span> Vác đồ</div>
+    <div><span class="key-pill">Space</span> Lăn né / Giật cần</div>
+    <div><span class="key-pill">U</span> Tưới nước</div>
+    <div><span class="key-pill" style="color: #38bdf8; border-color: #38bdf8;">I</span> <b>Câu cá ven sông (hoặc [F] tại Bến Câu)</b></div>
+  </div>
+
+  <!-- Khung Hội Thoại Với NPC -->
+  <div id="dialogue-box">
+    <div id="dialogue-speaker">Hiệp Sĩ Canh Cổng</div>
+    <div id="dialogue-text">Chào chiến binh! Hãy tiêu diệt lũ Skeleton và Orc đang xâm nhập quán rượu!</div>
+    <div id="dialogue-close">Nhấn [F] hoặc [Space] để đóng</div>
+  </div>
+
+  <!-- Toast Thông Báo Hành Động -->
+  <div id="toast-notification">Thông báo game</div>
+
+  <!-- Màn Hình Game Over -->
+  <div id="game-over-screen">
+    <h1>BẠN ĐÃ BỊ HẠ GỤC</h1>
+    <p>Lũ quái vật đã đánh bại bạn.</p>
+    <button class="respawn-btn" onclick="Game.respawnPlayer()">HỒI SINH TRỞ LẠI</button>
+  </div>
+
+  <!-- Modal Chọn Chức Nghiệp Đầu Game & Phím P -->
+  <div id="class-select-modal" class="modal-overlay">
+    <div class="class-modal-box">
+      <div class="modal-header">
+        <h2>CHỌN CHỨC NGHIỆP ANH HÙNG</h2>
+        <div class="modal-subtitle">Lựa chọn con đường tu luyện & phong cách chiến đấu của bạn trong thế giới Pixel Crawler</div>
+      </div>
+
+      <div class="class-cards-container">
+        <!-- 1. Vô Nghề (Mặc định) -->
+        <div class="class-card active" data-class="novice" onclick="Game.selectClass('novice')">
+          <div class="card-badge default-badge">MẶC ĐỊNH</div>
+          <div class="class-icon">🥊</div>
+          <div class="class-title">Kẻ Vô Danh</div>
+          <div class="class-sub">Tự Do & Bất Khuất</div>
+          <div class="class-equip">
+            <div class="equip-tag weapon-tag">🥊 Thiết Quyền (Cận chiến)</div>
+            <div class="equip-tag">🛡️ Áo Vải Classic (Body_A)</div>
+          </div>
+          <div class="class-desc">Khởi đầu tay trắng với ý chí thép và đôi nắm đấm sắt. Di chuyển linh hoạt, tốc độ cân bằng.</div>
+          <button class="select-btn">CHỌN VÔ NGHỀ</button>
+        </div>
+
+        <!-- 2. Hiệp Sĩ -->
+        <div class="class-card" data-class="knight" onclick="Game.selectClass('knight')">
+          <div class="class-icon">⚔️</div>
+          <div class="class-title">Hiệp Sĩ</div>
+          <div class="class-sub">Công Thủ Toàn Diện</div>
+          <div class="class-equip">
+            <div class="equip-tag weapon-tag">⚔️ Kiếm Hiệp Sĩ</div>
+            <div class="equip-tag">🛡️ Giáp Trụ Thép Hoàng Gia</div>
+          </div>
+          <div class="class-desc">Chiến binh tiên phong mang khiên giáp kiên cố và thanh kiếm sắc bén. Máu dày (140 HP), bền bỉ.</div>
+          <button class="select-btn">CHỌN HIỆP SĨ</button>
+        </div>
+
+        <!-- 3. Sát Thủ -->
+        <div class="class-card" data-class="rogue" onclick="Game.selectClass('rogue')">
+          <div class="class-icon">🌙</div>
+          <div class="class-title">Sát Thủ</div>
+          <div class="class-sub">Bóng Tối & Tử Thần</div>
+          <div class="class-equip">
+            <div class="equip-tag weapon-tag">☠️ Lưỡi Hái Xương Trăng Khuyết</div>
+            <div class="equip-tag">🧥 Áo Choàng Trùm Đầu Rogue</div>
+          </div>
+          <div class="class-desc">Lướt đi như bóng ma, vung lưỡi hái trảm sát mục tiêu cực hiểm. Tốc độ cực nhanh (+25% tốc chạy, 120 SP).</div>
+          <button class="select-btn">CHỌN SÁT THỦ</button>
+        </div>
+
+        <!-- 4. Pháp Sư -->
+        <div class="class-card" data-class="wizard" onclick="Game.selectClass('wizard')">
+          <div class="card-badge ranged-badge">BẮN XA (RANGED)</div>
+          <div class="class-icon">🔮</div>
+          <div class="class-title">Đại Pháp Sư</div>
+          <div class="class-sub">Ma Pháp Tối Thượng</div>
+          <div class="class-equip">
+            <div class="equip-tag magic-tag">✨ Quyền Trượng Ma Tinh (Bắn xa)</div>
+            <div class="equip-tag">🧙 Pháp Bào Tím Cổ Đại</div>
+          </div>
+          <div class="class-desc">Điều khiển năng lượng nguyên tố cổ xưa. Vung trượng phóng cầu ma pháp tầm xa tiêu diệt quái từ xa!</div>
+          <button class="select-btn">CHỌN PHÁP SƯ</button>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="tip-text">💡 <i>Mẹo: Có thể đổi chức nghiệp bất cứ lúc nào bằng phím <b>[P]</b> hoặc click vào biểu tượng chức nghiệp trên thanh HUD.</i></div>
+        <button class="modal-close-btn" onclick="Game.closeClassModal()">Đóng [X]</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts: 1. Danh mục 383 files & 2. Game Engine -->
+  <script src="/js/all_assets.js?v=15.0"></script>
+  <script src="/js/game.js?v=18.0"></script>
+</body>
+</html>

@@ -1,0 +1,2306 @@
+[
+  {
+    "rel": "Terms.txt",
+    "name": "Terms.txt",
+    "ext": ".txt",
+    "size": 1290
+  },
+  {
+    "rel": "Icons/Resources.aseprite",
+    "name": "Resources.aseprite",
+    "ext": ".aseprite",
+    "size": 3298
+  },
+  {
+    "rel": "Icons/Resources.png",
+    "name": "Resources.png",
+    "ext": ".png",
+    "size": 5155
+  },
+  {
+    "rel": "MockUps/Castle_Entrance.aseprite",
+    "name": "Castle_Entrance.aseprite",
+    "ext": ".aseprite",
+    "size": 40560
+  },
+  {
+    "rel": "MockUps/Castle_Entrance.png",
+    "name": "Castle_Entrance.png",
+    "ext": ".png",
+    "size": 37165
+  },
+  {
+    "rel": "MockUps/Tavern.aseprite",
+    "name": "Tavern.aseprite",
+    "ext": ".aseprite",
+    "size": 110927
+  },
+  {
+    "rel": "MockUps/Tavern.png",
+    "name": "Tavern.png",
+    "ext": ".png",
+    "size": 151950
+  },
+  {
+    "rel": "Weapons/Bone/Bone.aseprite",
+    "name": "Bone.aseprite",
+    "ext": ".aseprite",
+    "size": 4481
+  },
+  {
+    "rel": "Weapons/Bone/Bone.png",
+    "name": "Bone.png",
+    "ext": ".png",
+    "size": 7285
+  },
+  {
+    "rel": "Weapons/Hands/Hands.aseprite",
+    "name": "Hands.aseprite",
+    "ext": ".aseprite",
+    "size": 1938
+  },
+  {
+    "rel": "Weapons/Hands/Hands.png",
+    "name": "Hands.png",
+    "ext": ".png",
+    "size": 1273
+  },
+  {
+    "rel": "Weapons/Wood/Wood.aseprite",
+    "name": "Wood.aseprite",
+    "ext": ".aseprite",
+    "size": 4295
+  },
+  {
+    "rel": "Weapons/Wood/Wood.png",
+    "name": "Wood.png",
+    "ext": ".png",
+    "size": 6479
+  },
+  {
+    "rel": "Environment/Tilesets/Dungeon_Tiles.aseprite",
+    "name": "Dungeon_Tiles.aseprite",
+    "ext": ".aseprite",
+    "size": 14007
+  },
+  {
+    "rel": "Environment/Tilesets/Dungeon_Tiles.png",
+    "name": "Dungeon_Tiles.png",
+    "ext": ".png",
+    "size": 21113
+  },
+  {
+    "rel": "Environment/Tilesets/Floors_Tiles.aseprite",
+    "name": "Floors_Tiles.aseprite",
+    "ext": ".aseprite",
+    "size": 16280
+  },
+  {
+    "rel": "Environment/Tilesets/Floors_Tiles.png",
+    "name": "Floors_Tiles.png",
+    "ext": ".png",
+    "size": 21966
+  },
+  {
+    "rel": "Environment/Tilesets/New_Tiles(WIP).aseprite",
+    "name": "New_Tiles(WIP).aseprite",
+    "ext": ".aseprite",
+    "size": 842
+  },
+  {
+    "rel": "Environment/Tilesets/Wall_Tiles.aseprite",
+    "name": "Wall_Tiles.aseprite",
+    "ext": ".aseprite",
+    "size": 26629
+  },
+  {
+    "rel": "Environment/Tilesets/Wall_Tiles.png",
+    "name": "Wall_Tiles.png",
+    "ext": ".png",
+    "size": 41057
+  },
+  {
+    "rel": "Environment/Tilesets/Wall_Variations.aseprite",
+    "name": "Wall_Variations.aseprite",
+    "ext": ".aseprite",
+    "size": 24573
+  },
+  {
+    "rel": "Environment/Tilesets/Wall_Variations.png",
+    "name": "Wall_Variations.png",
+    "ext": ".png",
+    "size": 36550
+  },
+  {
+    "rel": "Environment/Tilesets/Water.aseprite",
+    "name": "Water.aseprite",
+    "ext": ".aseprite",
+    "size": 8806
+  },
+  {
+    "rel": "Environment/Tilesets/Water_tiles.aseprite",
+    "name": "Water_tiles.aseprite",
+    "ext": ".aseprite",
+    "size": 9047
+  },
+  {
+    "rel": "Environment/Tilesets/Water_tiles.png",
+    "name": "Water_tiles.png",
+    "ext": ".png",
+    "size": 12937
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Props.aseprite",
+    "name": "Props.aseprite",
+    "ext": ".aseprite",
+    "size": 4455
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Props.png",
+    "name": "Props.png",
+    "ext": ".png",
+    "size": 8364
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Roofs.aseprite",
+    "name": "Roofs.aseprite",
+    "ext": ".aseprite",
+    "size": 11410
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Roofs.png",
+    "name": "Roofs.png",
+    "ext": ".png",
+    "size": 11073
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Shadows.aseprite",
+    "name": "Shadows.aseprite",
+    "ext": ".aseprite",
+    "size": 910
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Shadows.png",
+    "name": "Shadows.png",
+    "ext": ".png",
+    "size": 1634
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Walls.aseprite",
+    "name": "Walls.aseprite",
+    "ext": ".aseprite",
+    "size": 22866
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Walls.png",
+    "name": "Walls.png",
+    "ext": ".png",
+    "size": 22524
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy.aseprite",
+    "name": "Alchemy.aseprite",
+    "ext": ".aseprite",
+    "size": 5656
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy_Table_01-Sheet.png",
+    "name": "Alchemy_Table_01-Sheet.png",
+    "ext": ".png",
+    "size": 13701
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy_Table_01.aseprite",
+    "name": "Alchemy_Table_01.aseprite",
+    "ext": ".aseprite",
+    "size": 43799
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy_Table_02-Sheet.png",
+    "name": "Alchemy_Table_02-Sheet.png",
+    "ext": ".png",
+    "size": 16055
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy_Table_02.aseprite",
+    "name": "Alchemy_Table_02.aseprite",
+    "ext": ".aseprite",
+    "size": 73077
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy_Table_03-Sheet.png",
+    "name": "Alchemy_Table_03-Sheet.png",
+    "ext": ".png",
+    "size": 24639
+  },
+  {
+    "rel": "Environment/Structures/Stations/Alchemy/Alchemy_Table_03.aseprite",
+    "name": "Alchemy_Table_03.aseprite",
+    "ext": ".aseprite",
+    "size": 54879
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil.aseprite",
+    "name": "Anvil.aseprite",
+    "ext": ".aseprite",
+    "size": 6815
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil.png",
+    "name": "Anvil.png",
+    "ext": ".png",
+    "size": 7961
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil_01-Sheet.png",
+    "name": "Anvil_01-Sheet.png",
+    "ext": ".png",
+    "size": 14014
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil_01.aseprite",
+    "name": "Anvil_01.aseprite",
+    "ext": ".aseprite",
+    "size": 42493
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil_02-Sheet.png",
+    "name": "Anvil_02-Sheet.png",
+    "ext": ".png",
+    "size": 27126
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil_02.aseprite",
+    "name": "Anvil_02.aseprite",
+    "ext": ".aseprite",
+    "size": 73318
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil_03-Sheet.png",
+    "name": "Anvil_03-Sheet.png",
+    "ext": ".png",
+    "size": 39876
+  },
+  {
+    "rel": "Environment/Structures/Stations/Anvil/Anvil_03.aseprite",
+    "name": "Anvil_03.aseprite",
+    "ext": ".aseprite",
+    "size": 102587
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire.aseprite",
+    "name": "Bonfire.aseprite",
+    "ext": ".aseprite",
+    "size": 4136
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire.png",
+    "name": "Bonfire.png",
+    "ext": ".png",
+    "size": 3919
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_01-Sheet.png",
+    "name": "Bonfire_01-Sheet.png",
+    "ext": ".png",
+    "size": 1049
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_01.aseprite",
+    "name": "Bonfire_01.aseprite",
+    "ext": ".aseprite",
+    "size": 1640
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_02-Sheet.png",
+    "name": "Bonfire_02-Sheet.png",
+    "ext": ".png",
+    "size": 1169
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_02.aseprite",
+    "name": "Bonfire_02.aseprite",
+    "ext": ".aseprite",
+    "size": 1745
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_03-Sheet.png",
+    "name": "Bonfire_03-Sheet.png",
+    "ext": ".png",
+    "size": 714
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_03.aseprite",
+    "name": "Bonfire_03.aseprite",
+    "ext": ".aseprite",
+    "size": 1085
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_04-Sheet.png",
+    "name": "Bonfire_04-Sheet.png",
+    "ext": ".png",
+    "size": 689
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_04.aseprite",
+    "name": "Bonfire_04.aseprite",
+    "ext": ".aseprite",
+    "size": 1141
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_05-Sheet.png",
+    "name": "Bonfire_05-Sheet.png",
+    "ext": ".png",
+    "size": 725
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_05.aseprite",
+    "name": "Bonfire_05.aseprite",
+    "ext": ".aseprite",
+    "size": 1005
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_06-Sheet.png",
+    "name": "Bonfire_06-Sheet.png",
+    "ext": ".png",
+    "size": 353
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_06.aseprite",
+    "name": "Bonfire_06.aseprite",
+    "ext": ".aseprite",
+    "size": 634
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_07-Sheet.png",
+    "name": "Bonfire_07-Sheet.png",
+    "ext": ".png",
+    "size": 692
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_07.aseprite",
+    "name": "Bonfire_07.aseprite",
+    "ext": ".aseprite",
+    "size": 1137
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_08-Sheet.png",
+    "name": "Bonfire_08-Sheet.png",
+    "ext": ".png",
+    "size": 651
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_08.aseprite",
+    "name": "Bonfire_08.aseprite",
+    "ext": ".aseprite",
+    "size": 966
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_09-Sheet.png",
+    "name": "Bonfire_09-Sheet.png",
+    "ext": ".png",
+    "size": 1809
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_09.aseprite",
+    "name": "Bonfire_09.aseprite",
+    "ext": ".aseprite",
+    "size": 2699
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_10-Sheet.png",
+    "name": "Bonfire_10-Sheet.png",
+    "ext": ".png",
+    "size": 1179
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Bonfire_10.aseprite",
+    "name": "Bonfire_10.aseprite",
+    "ext": ".aseprite",
+    "size": 1908
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Fire_01-Sheet.png",
+    "name": "Fire_01-Sheet.png",
+    "ext": ".png",
+    "size": 1417
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Fire_01.aseprite",
+    "name": "Fire_01.aseprite",
+    "ext": ".aseprite",
+    "size": 1309
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Fire_02-Sheet.png",
+    "name": "Fire_02-Sheet.png",
+    "ext": ".png",
+    "size": 797
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Fire_02.aseprite",
+    "name": "Fire_02.aseprite",
+    "ext": ".aseprite",
+    "size": 891
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Smoke-Sheet.png",
+    "name": "Smoke-Sheet.png",
+    "ext": ".png",
+    "size": 554
+  },
+  {
+    "rel": "Environment/Structures/Stations/Bonfire/Smoke.aseprite",
+    "name": "Smoke.aseprite",
+    "ext": ".aseprite",
+    "size": 2191
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooking Station.aseprite",
+    "name": "Cooking Station.aseprite",
+    "ext": ".aseprite",
+    "size": 11310
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooking Station.png",
+    "name": "Cooking Station.png",
+    "ext": ".png",
+    "size": 16528
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Estructure.png",
+    "name": "Estructure.png",
+    "ext": ".png",
+    "size": 6314
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Bricks_01-Sheet.png",
+    "name": "Bricks_01-Sheet.png",
+    "ext": ".png",
+    "size": 1680
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Bricks_01.aseprite",
+    "name": "Bricks_01.aseprite",
+    "ext": ".aseprite",
+    "size": 2645
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Bricks_02-Sheet.png",
+    "name": "Bricks_02-Sheet.png",
+    "ext": ".png",
+    "size": 2440
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Bricks_02.aseprite",
+    "name": "Bricks_02.aseprite",
+    "ext": ".aseprite",
+    "size": 3610
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Bricks_03-Sheet.png",
+    "name": "Bricks_03-Sheet.png",
+    "ext": ".png",
+    "size": 2439
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Bricks_03.aseprite",
+    "name": "Bricks_03.aseprite",
+    "ext": ".aseprite",
+    "size": 4537
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Furnace.aseprite",
+    "name": "Furnace.aseprite",
+    "ext": ".aseprite",
+    "size": 13505
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Furnace.png",
+    "name": "Furnace.png",
+    "ext": ".png",
+    "size": 18229
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Iron_01-Sheet.png",
+    "name": "Iron_01-Sheet.png",
+    "ext": ".png",
+    "size": 1550
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Iron_01.aseprite",
+    "name": "Iron_01.aseprite",
+    "ext": ".aseprite",
+    "size": 3146
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Iron_02-Sheet.png",
+    "name": "Iron_02-Sheet.png",
+    "ext": ".png",
+    "size": 2283
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Iron_02.aseprite",
+    "name": "Iron_02.aseprite",
+    "ext": ".aseprite",
+    "size": 4062
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Iron_03-Sheet.png",
+    "name": "Iron_03-Sheet.png",
+    "ext": ".png",
+    "size": 3160
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Iron_03.aseprite",
+    "name": "Iron_03.aseprite",
+    "ext": ".aseprite",
+    "size": 5252
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Stone_01-Sheet.png",
+    "name": "Stone_01-Sheet.png",
+    "ext": ".png",
+    "size": 1560
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Stone_01.aseprite",
+    "name": "Stone_01.aseprite",
+    "ext": ".aseprite",
+    "size": 2566
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Stone_02-Sheet.png",
+    "name": "Stone_02-Sheet.png",
+    "ext": ".png",
+    "size": 1807
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Stone_02.aseprite",
+    "name": "Stone_02.aseprite",
+    "ext": ".aseprite",
+    "size": 8251
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Stone_03-Sheet.png",
+    "name": "Stone_03-Sheet.png",
+    "ext": ".png",
+    "size": 2331
+  },
+  {
+    "rel": "Environment/Structures/Stations/Furnace/Stone_03.aseprite",
+    "name": "Stone_03.aseprite",
+    "ext": ".aseprite",
+    "size": 3675
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Base.aseprite",
+    "name": "Base.aseprite",
+    "ext": ".aseprite",
+    "size": 5525
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Base.png",
+    "name": "Base.png",
+    "ext": ".png",
+    "size": 7334
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Level_1.aseprite",
+    "name": "Level_1.aseprite",
+    "ext": ".aseprite",
+    "size": 548
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Level_1.png",
+    "name": "Level_1.png",
+    "ext": ".png",
+    "size": 614
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Level_2-Sheet.png",
+    "name": "Level_2-Sheet.png",
+    "ext": ".png",
+    "size": 31563
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Level_2.aseprite",
+    "name": "Level_2.aseprite",
+    "ext": ".aseprite",
+    "size": 77849
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Level_3-Sheet.png",
+    "name": "Level_3-Sheet.png",
+    "ext": ".png",
+    "size": 50055
+  },
+  {
+    "rel": "Environment/Structures/Stations/Sawmill/Level_3.aseprite",
+    "name": "Level_3.aseprite",
+    "ext": ".aseprite",
+    "size": 108107
+  },
+  {
+    "rel": "Environment/Structures/Stations/Workbench/Workbench.aseprite",
+    "name": "Workbench.aseprite",
+    "ext": ".aseprite",
+    "size": 10800
+  },
+  {
+    "rel": "Environment/Structures/Stations/Workbench/Workbench.png",
+    "name": "Workbench.png",
+    "ext": ".png",
+    "size": 13731
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_01-Sheet.png",
+    "name": "Butchery_01-Sheet.png",
+    "ext": ".png",
+    "size": 752
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_01.aseprite",
+    "name": "Butchery_01.aseprite",
+    "ext": ".aseprite",
+    "size": 753
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_02.aseprite",
+    "name": "Butchery_02.aseprite",
+    "ext": ".aseprite",
+    "size": 1035
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_02.png",
+    "name": "Butchery_02.png",
+    "ext": ".png",
+    "size": 1150
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_03.aseprite",
+    "name": "Butchery_03.aseprite",
+    "ext": ".aseprite",
+    "size": 1738
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_03.png",
+    "name": "Butchery_03.png",
+    "ext": ".png",
+    "size": 2233
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_04.aseprite",
+    "name": "Butchery_04.aseprite",
+    "ext": ".aseprite",
+    "size": 2320
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Butchery/Butchery_04.png",
+    "name": "Butchery_04.png",
+    "ext": ".png",
+    "size": 3020
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_01.aseprite",
+    "name": "Cooker_01.aseprite",
+    "ext": ".aseprite",
+    "size": 543
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_01.png",
+    "name": "Cooker_01.png",
+    "ext": ".png",
+    "size": 508
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_02.aseprite",
+    "name": "Cooker_02.aseprite",
+    "ext": ".aseprite",
+    "size": 386
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_02.png",
+    "name": "Cooker_02.png",
+    "ext": ".png",
+    "size": 336
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_03-Sheet.png",
+    "name": "Cooker_03-Sheet.png",
+    "ext": ".png",
+    "size": 909
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_03.aseprite",
+    "name": "Cooker_03.aseprite",
+    "ext": ".aseprite",
+    "size": 1605
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_04-Sheet.png",
+    "name": "Cooker_04-Sheet.png",
+    "ext": ".png",
+    "size": 2897
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Cooker/Cooker_04.aseprite",
+    "name": "Cooker_04.aseprite",
+    "ext": ".aseprite",
+    "size": 5056
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_01-Sheet.png",
+    "name": "Grill_01-Sheet.png",
+    "ext": ".png",
+    "size": 1564
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_01.aseprite",
+    "name": "Grill_01.aseprite",
+    "ext": ".aseprite",
+    "size": 3171
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_02-Sheet.png",
+    "name": "Grill_02-Sheet.png",
+    "ext": ".png",
+    "size": 1708
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_02.aseprite",
+    "name": "Grill_02.aseprite",
+    "ext": ".aseprite",
+    "size": 3573
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_03-Sheet.png",
+    "name": "Grill_03-Sheet.png",
+    "ext": ".png",
+    "size": 2249
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_03.aseprite",
+    "name": "Grill_03.aseprite",
+    "ext": ".aseprite",
+    "size": 4218
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_04-Sheet.png",
+    "name": "Grill_04-Sheet.png",
+    "ext": ".png",
+    "size": 2787
+  },
+  {
+    "rel": "Environment/Structures/Stations/Cooking Station/Grill/Grill_04.aseprite",
+    "name": "Grill_04.aseprite",
+    "ext": ".aseprite",
+    "size": 4408
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Interior/Interior_Props_01.aseprite",
+    "name": "Interior_Props_01.aseprite",
+    "ext": ".aseprite",
+    "size": 28129
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Interior/Interior_Props_01.png",
+    "name": "Interior_Props_01.png",
+    "ext": ".png",
+    "size": 40173
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Interior/Interior_Walls_01.png",
+    "name": "Interior_Walls_01.png",
+    "ext": ".png",
+    "size": 26542
+  },
+  {
+    "rel": "Environment/Structures/Buildings/Interior/Walls.aseprite",
+    "name": "Walls.aseprite",
+    "ext": ".aseprite",
+    "size": 16575
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_01-Sheet.png",
+    "name": "Pan_01-Sheet.png",
+    "ext": ".png",
+    "size": 761
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_01.aseprite",
+    "name": "Pan_01.aseprite",
+    "ext": ".aseprite",
+    "size": 1542
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_02-Sheet.png",
+    "name": "Pan_02-Sheet.png",
+    "ext": ".png",
+    "size": 634
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_02.aseprite",
+    "name": "Pan_02.aseprite",
+    "ext": ".aseprite",
+    "size": 1564
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_03-Sheet.png",
+    "name": "Pan_03-Sheet.png",
+    "ext": ".png",
+    "size": 1670
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_03.aseprite",
+    "name": "Pan_03.aseprite",
+    "ext": ".aseprite",
+    "size": 4206
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_04-Sheet.png",
+    "name": "Pan_04-Sheet.png",
+    "ext": ".png",
+    "size": 838
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_04.aseprite",
+    "name": "Pan_04.aseprite",
+    "ext": ".aseprite",
+    "size": 1512
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_05-Sheet.png",
+    "name": "Pan_05-Sheet.png",
+    "ext": ".png",
+    "size": 1624
+  },
+  {
+    "rel": "Environment/Props/Animated/Pan_05.aseprite",
+    "name": "Pan_05.aseprite",
+    "ext": ".aseprite",
+    "size": 2348
+  },
+  {
+    "rel": "Environment/Props/Static/Dungeon_Props.aseprite",
+    "name": "Dungeon_Props.aseprite",
+    "ext": ".aseprite",
+    "size": 2381
+  },
+  {
+    "rel": "Environment/Props/Static/Dungeon_Props.png",
+    "name": "Dungeon_Props.png",
+    "ext": ".png",
+    "size": 4213
+  },
+  {
+    "rel": "Environment/Props/Static/Esoteric.aseprite",
+    "name": "Esoteric.aseprite",
+    "ext": ".aseprite",
+    "size": 2679
+  },
+  {
+    "rel": "Environment/Props/Static/Esoteric.png",
+    "name": "Esoteric.png",
+    "ext": ".png",
+    "size": 4885
+  },
+  {
+    "rel": "Environment/Props/Static/Farm.aseprite",
+    "name": "Farm.aseprite",
+    "ext": ".aseprite",
+    "size": 11972
+  },
+  {
+    "rel": "Environment/Props/Static/Farm.png",
+    "name": "Farm.png",
+    "ext": ".png",
+    "size": 22698
+  },
+  {
+    "rel": "Environment/Props/Static/Furniture.aseprite",
+    "name": "Furniture.aseprite",
+    "ext": ".aseprite",
+    "size": 21418
+  },
+  {
+    "rel": "Environment/Props/Static/Furniture.png",
+    "name": "Furniture.png",
+    "ext": ".png",
+    "size": 29445
+  },
+  {
+    "rel": "Environment/Props/Static/Meat.aseprite",
+    "name": "Meat.aseprite",
+    "ext": ".aseprite",
+    "size": 3178
+  },
+  {
+    "rel": "Environment/Props/Static/Meat.png",
+    "name": "Meat.png",
+    "ext": ".png",
+    "size": 5397
+  },
+  {
+    "rel": "Environment/Props/Static/Pan.aseprite",
+    "name": "Pan.aseprite",
+    "ext": ".aseprite",
+    "size": 3649
+  },
+  {
+    "rel": "Environment/Props/Static/Pan.png",
+    "name": "Pan.png",
+    "ext": ".png",
+    "size": 6799
+  },
+  {
+    "rel": "Environment/Props/Static/Resources.aseprite",
+    "name": "Resources.aseprite",
+    "ext": ".aseprite",
+    "size": 2532
+  },
+  {
+    "rel": "Environment/Props/Static/Resources.png",
+    "name": "Resources.png",
+    "ext": ".png",
+    "size": 4487
+  },
+  {
+    "rel": "Environment/Props/Static/Rocks.aseprite",
+    "name": "Rocks.aseprite",
+    "ext": ".aseprite",
+    "size": 6029
+  },
+  {
+    "rel": "Environment/Props/Static/Rocks.png",
+    "name": "Rocks.png",
+    "ext": ".png",
+    "size": 8436
+  },
+  {
+    "rel": "Environment/Props/Static/Shadows.aseprite",
+    "name": "Shadows.aseprite",
+    "ext": ".aseprite",
+    "size": 2587
+  },
+  {
+    "rel": "Environment/Props/Static/Shadows.png",
+    "name": "Shadows.png",
+    "ext": ".png",
+    "size": 3965
+  },
+  {
+    "rel": "Environment/Props/Static/Tools.aseprite",
+    "name": "Tools.aseprite",
+    "ext": ".aseprite",
+    "size": 7416
+  },
+  {
+    "rel": "Environment/Props/Static/Tools.png",
+    "name": "Tools.png",
+    "ext": ".png",
+    "size": 13491
+  },
+  {
+    "rel": "Environment/Props/Static/Vegetation.aseprite",
+    "name": "Vegetation.aseprite",
+    "ext": ".aseprite",
+    "size": 19929
+  },
+  {
+    "rel": "Environment/Props/Static/Vegetation.png",
+    "name": "Vegetation.png",
+    "ext": ".png",
+    "size": 32871
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_02.aseprite",
+    "name": "Size_02.aseprite",
+    "ext": ".aseprite",
+    "size": 6851
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_02.png",
+    "name": "Size_02.png",
+    "ext": ".png",
+    "size": 10604
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_03.aseprite",
+    "name": "Size_03.aseprite",
+    "ext": ".aseprite",
+    "size": 11782
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_03.png",
+    "name": "Size_03.png",
+    "ext": ".png",
+    "size": 19583
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_04.aseprite",
+    "name": "Size_04.aseprite",
+    "ext": ".aseprite",
+    "size": 27909
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_04.png",
+    "name": "Size_04.png",
+    "ext": ".png",
+    "size": 47337
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_05.aseprite",
+    "name": "Size_05.aseprite",
+    "ext": ".aseprite",
+    "size": 31960
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_01/Size_05.png",
+    "name": "Size_05.png",
+    "ext": ".png",
+    "size": 50559
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_02.aseprite",
+    "name": "Size_02.aseprite",
+    "ext": ".aseprite",
+    "size": 3235
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_02.png",
+    "name": "Size_02.png",
+    "ext": ".png",
+    "size": 4945
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_03.aseprite",
+    "name": "Size_03.aseprite",
+    "ext": ".aseprite",
+    "size": 5302
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_03.png",
+    "name": "Size_03.png",
+    "ext": ".png",
+    "size": 8168
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_04.aseprite",
+    "name": "Size_04.aseprite",
+    "ext": ".aseprite",
+    "size": 8374
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_04.png",
+    "name": "Size_04.png",
+    "ext": ".png",
+    "size": 12805
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_05.aseprite",
+    "name": "Size_05.aseprite",
+    "ext": ".aseprite",
+    "size": 18887
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_02/Size_05.png",
+    "name": "Size_05.png",
+    "ext": ".png",
+    "size": 28032
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_02.aseprite",
+    "name": "Size_02.aseprite",
+    "ext": ".aseprite",
+    "size": 3997
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_02.png",
+    "name": "Size_02.png",
+    "ext": ".png",
+    "size": 5922
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_03-export.png",
+    "name": "Size_03-export.png",
+    "ext": ".png",
+    "size": 15338
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_03.aseprite",
+    "name": "Size_03.aseprite",
+    "ext": ".aseprite",
+    "size": 10122
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_03.png",
+    "name": "Size_03.png",
+    "ext": ".png",
+    "size": 15338
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_04-export-export.png",
+    "name": "Size_04-export-export.png",
+    "ext": ".png",
+    "size": 30240
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_04-export.png",
+    "name": "Size_04-export.png",
+    "ext": ".png",
+    "size": 30240
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_04.aseprite",
+    "name": "Size_04.aseprite",
+    "ext": ".aseprite",
+    "size": 19906
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_04.png",
+    "name": "Size_04.png",
+    "ext": ".png",
+    "size": 31102
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_05.aseprite",
+    "name": "Size_05.aseprite",
+    "ext": ".aseprite",
+    "size": 28068
+  },
+  {
+    "rel": "Environment/Props/Static/Trees/Model_03/Size_05.png",
+    "name": "Size_05.png",
+    "ext": ".png",
+    "size": 41673
+  },
+  {
+    "rel": "Entities/Npc's/Wizzard/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 3465
+  },
+  {
+    "rel": "Entities/Npc's/Wizzard/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 3102
+  },
+  {
+    "rel": "Entities/Npc's/Wizzard/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1507
+  },
+  {
+    "rel": "Entities/Npc's/Wizzard/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2407
+  },
+  {
+    "rel": "Entities/Npc's/Wizzard/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2547
+  },
+  {
+    "rel": "Entities/Npc's/Wizzard/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 6198
+  },
+  {
+    "rel": "Entities/Npc's/Rogue/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 2650
+  },
+  {
+    "rel": "Entities/Npc's/Rogue/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 2773
+  },
+  {
+    "rel": "Entities/Npc's/Rogue/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1342
+  },
+  {
+    "rel": "Entities/Npc's/Rogue/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2324
+  },
+  {
+    "rel": "Entities/Npc's/Rogue/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2435
+  },
+  {
+    "rel": "Entities/Npc's/Rogue/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 7110
+  },
+  {
+    "rel": "Entities/Npc's/Knight/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 1943
+  },
+  {
+    "rel": "Entities/Npc's/Knight/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 2555
+  },
+  {
+    "rel": "Entities/Npc's/Knight/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1102
+  },
+  {
+    "rel": "Entities/Npc's/Knight/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 1994
+  },
+  {
+    "rel": "Entities/Npc's/Knight/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 1933
+  },
+  {
+    "rel": "Entities/Npc's/Knight/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 2681
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Citizen_A/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2318
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Citizen_A/Idle.png",
+    "name": "Idle.png",
+    "ext": ".png",
+    "size": 956
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Citizen_A/Walk.aseprite",
+    "name": "Walk.aseprite",
+    "ext": ".aseprite",
+    "size": 3205
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Citizen_A/Walk.png",
+    "name": "Walk.png",
+    "ext": ".png",
+    "size": 1290
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Idle/Idle_Side-Sheet.png",
+    "name": "Idle_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1537
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Idle/Idle_Side.aseprite",
+    "name": "Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2663
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Idle_Hold/Idle_Side-Sheet.png",
+    "name": "Idle_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1437
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Idle_Hold/Idle_Side.aseprite",
+    "name": "Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 3302
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Walk/Walk_Side-Sheet.png",
+    "name": "Walk_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2089
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Walk/Walk_Side.aseprite",
+    "name": "Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 6824
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Walk_Hold/Walk_Side-Sheet.png",
+    "name": "Walk_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1852
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_B/Walk_Hold/Walk_Side.aseprite",
+    "name": "Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 6824
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Idle/Idle_Side-Sheet.png",
+    "name": "Idle_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1537
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Idle/Idle_Side.aseprite",
+    "name": "Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2857
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Idle_Hold/Idle_Side-Sheet.png",
+    "name": "Idle_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1437
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Idle_Hold/Idle_Side.aseprite",
+    "name": "Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 3468
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Walk/Walk_Side-Sheet.png",
+    "name": "Walk_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2089
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Walk/Walk_Side.aseprite",
+    "name": "Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 5947
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Walk_Hold/Walk_Side-Sheet.png",
+    "name": "Walk_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1852
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Tavern_A/Walk_Hold/Walk_Side.aseprite",
+    "name": "Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 6911
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Peasant_A/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1706
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Peasant_A/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 3993
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Peasant_A/Walk/Walk-Sheet.png",
+    "name": "Walk-Sheet.png",
+    "ext": ".png",
+    "size": 2351
+  },
+  {
+    "rel": "Entities/Npc's/Citizen_F/Peasant_A/Walk/Walk.aseprite",
+    "name": "Walk.aseprite",
+    "ext": ".aseprite",
+    "size": 6936
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 2908
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 2947
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1506
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2271
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2495
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Warrior/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 7309
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 2962
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 2838
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1432
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2151
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2314
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Rogue/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 9123
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Mage/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 2881
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Mage/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 2699
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Mage/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1453
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Mage/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2310
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Mage/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2218
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Mage/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 5116
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Base/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 3388
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Base/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 3060
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Base/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1248
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Base/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 1939
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Base/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 1936
+  },
+  {
+    "rel": "Entities/Mobs/Skeleton Crew/Skeleton - Base/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 5786
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Warrior/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 4416
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Warrior/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 4131
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Warrior/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 2075
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Warrior/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2722
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Warrior/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 3248
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Warrior/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 8738
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Shaman/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 2777
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Shaman/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 3306
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Shaman/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1713
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Shaman/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2448
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Shaman/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2852
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Shaman/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 7381
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Rogue/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 3430
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Rogue/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 3037
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Rogue/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1614
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Rogue/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2406
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Rogue/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2520
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc - Rogue/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 8397
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc/Death/Death-Sheet.png",
+    "name": "Death-Sheet.png",
+    "ext": ".png",
+    "size": 3080
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc/Death/Death.aseprite",
+    "name": "Death.aseprite",
+    "ext": ".aseprite",
+    "size": 2753
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc/Idle/Idle-Sheet.png",
+    "name": "Idle-Sheet.png",
+    "ext": ".png",
+    "size": 1544
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc/Idle/Idle.aseprite",
+    "name": "Idle.aseprite",
+    "ext": ".aseprite",
+    "size": 2295
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc/Run/Run-Sheet.png",
+    "name": "Run-Sheet.png",
+    "ext": ".png",
+    "size": 2443
+  },
+  {
+    "rel": "Entities/Mobs/Orc Crew/Orc/Run/Run.aseprite",
+    "name": "Run.aseprite",
+    "ext": ".aseprite",
+    "size": 6303
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Down-Sheet.png",
+    "name": "Idle_Down-Sheet.png",
+    "ext": ".png",
+    "size": 916
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Down.aseprite",
+    "name": "Idle_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 1350
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Down.png",
+    "name": "Idle_Down.png",
+    "ext": ".png",
+    "size": 916
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Side.aseprite",
+    "name": "Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 1316
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Side.png",
+    "name": "Idle_Side.png",
+    "ext": ".png",
+    "size": 888
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Up.aseprite",
+    "name": "Idle_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 1344
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Idle/Idle_Up.png",
+    "name": "Idle_Up.png",
+    "ext": ".png",
+    "size": 946
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Walk/Down.aseprite",
+    "name": "Down.aseprite",
+    "ext": ".aseprite",
+    "size": 1853
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Walk/Down.png",
+    "name": "Down.png",
+    "ext": ".png",
+    "size": 1122
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Walk/Up.aseprite",
+    "name": "Up.aseprite",
+    "ext": ".aseprite",
+    "size": 1845
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Walk/Up.png",
+    "name": "Up.png",
+    "ext": ".png",
+    "size": 1097
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Walk/Walk_Side.aseprite",
+    "name": "Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2505
+  },
+  {
+    "rel": "Entities/Characters/New_Version/Walk/Walk_Side.png",
+    "name": "Walk_Side.png",
+    "ext": ".png",
+    "size": 1046
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Down-Sheet.png",
+    "name": "Carry_Idle_Down-Sheet.png",
+    "ext": ".png",
+    "size": 992
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Down.aseprite",
+    "name": "Carry_Idle_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 1991
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Side-Sheet.png",
+    "name": "Carry_Idle_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1001
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Side.aseprite",
+    "name": "Carry_Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2072
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Up-Sheet.png",
+    "name": "Carry_Idle_Up-Sheet.png",
+    "ext": ".png",
+    "size": 827
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Idle/Carry_Idle_Up.aseprite",
+    "name": "Carry_Idle_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 1931
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Down-Sheet.png",
+    "name": "Carry_Run_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1375
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Down.aseprite",
+    "name": "Carry_Run_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 2913
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Side-Sheet.png",
+    "name": "Carry_Run_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1369
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Side.aseprite",
+    "name": "Carry_Run_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 3006
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Up-Sheet.png",
+    "name": "Carry_Run_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1073
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Run/Carry_Run_Up.aseprite",
+    "name": "Carry_Run_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 2770
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Down-Sheet.png",
+    "name": "Carry_Walk_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1283
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Down.aseprite",
+    "name": "Carry_Walk_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 2861
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Side-Sheet.png",
+    "name": "Carry_Walk_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1367
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Side.aseprite",
+    "name": "Carry_Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 3007
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Up-Sheet.png",
+    "name": "Carry_Walk_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1123
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Carry_Walk/Carry_Walk_Up.aseprite",
+    "name": "Carry_Walk_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 2751
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Collect_Base/Collect_Down-Sheet.png",
+    "name": "Collect_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1743
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Collect_Base/Collect_Down.aseprite",
+    "name": "Collect_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 3560
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Collect_Base/Collect_Side-Sheet.png",
+    "name": "Collect_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2053
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Collect_Base/Collect_Side.aseprite",
+    "name": "Collect_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 3771
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Collect_Base/Collect_Up-Sheet.png",
+    "name": "Collect_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1544
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Collect_Base/Collect_Up.aseprite",
+    "name": "Collect_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 3393
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Crush_Base/Crush_Down-Sheet.png",
+    "name": "Crush_Down-Sheet.png",
+    "ext": ".png",
+    "size": 2629
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Crush_Base/Crush_Down.aseprite",
+    "name": "Crush_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 4831
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Crush_Base/Crush_Side-Sheet.png",
+    "name": "Crush_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2664
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Crush_Base/Crush_Side.aseprite",
+    "name": "Crush_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 4951
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Crush_Base/Crush_Up-Sheet.png",
+    "name": "Crush_Up-Sheet.png",
+    "ext": ".png",
+    "size": 2202
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Crush_Base/Crush_Up.aseprite",
+    "name": "Crush_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 4455
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Death_Base/Death_Down-Sheet.png",
+    "name": "Death_Down-Sheet.png",
+    "ext": ".png",
+    "size": 2017
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Death_Base/Death_Down.aseprite",
+    "name": "Death_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 3476
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Death_Base/Death_Side-Sheet.png",
+    "name": "Death_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1803
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Death_Base/Death_Side.aseprite",
+    "name": "Death_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 3599
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Death_Base/Death_Up-Sheet.png",
+    "name": "Death_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1692
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Death_Base/Death_Up.aseprite",
+    "name": "Death_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 3374
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Down-Sheet.png",
+    "name": "Fishing_Down-Sheet.png",
+    "ext": ".png",
+    "size": 2425
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Down.aseprite",
+    "name": "Fishing_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 4878
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Side-Sheet.png",
+    "name": "Fishing_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2471
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Side.aseprite",
+    "name": "Fishing_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 5162
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Up-Sheet.png",
+    "name": "Fishing_Up-Sheet.png",
+    "ext": ".png",
+    "size": 2303
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Fishing_Base/Fishing_Up.aseprite",
+    "name": "Fishing_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 4880
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Hit_Base/Hit_Down-Sheet.png",
+    "name": "Hit_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1163
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Hit_Base/Hit_Down.aseprite",
+    "name": "Hit_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 1971
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Hit_Base/Hit_Side-Sheet.png",
+    "name": "Hit_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1169
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Hit_Base/Hit_Side.aseprite",
+    "name": "Hit_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2104
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Hit_Base/Hit_Up-Sheet.png",
+    "name": "Hit_Up-Sheet.png",
+    "ext": ".png",
+    "size": 988
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Hit_Base/Hit_Up.aseprite",
+    "name": "Hit_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 1896
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Idle_Base/Idle_Down-Sheet.png",
+    "name": "Idle_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1026
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Idle_Base/Idle_Down.aseprite",
+    "name": "Idle_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 1954
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side-Sheet.png",
+    "name": "Idle_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1068
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side.aseprite",
+    "name": "Idle_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2144
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up-Sheet.png",
+    "name": "Idle_Up-Sheet.png",
+    "ext": ".png",
+    "size": 863
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up.aseprite",
+    "name": "Idle_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 1851
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Down-Sheet.png",
+    "name": "Pierce_Down-Sheet.png",
+    "ext": ".png",
+    "size": 2313
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Down.aseprite",
+    "name": "Pierce_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 4776
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Side-Sheet.png",
+    "name": "Pierce_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2166
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Side.aseprite",
+    "name": "Pierce_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 5114
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Top-Sheet.png",
+    "name": "Pierce_Top-Sheet.png",
+    "ext": ".png",
+    "size": 1748
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Pierce_Base/Pierce_Top.aseprite",
+    "name": "Pierce_Top.aseprite",
+    "ext": ".aseprite",
+    "size": 4504
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Run_Base/Run_Down-Sheet.png",
+    "name": "Run_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1490
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Run_Base/Run_Down.aseprite",
+    "name": "Run_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 2930
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Run_Base/Run_Side-Sheet.png",
+    "name": "Run_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1696
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Run_Base/Run_Side.aseprite",
+    "name": "Run_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2963
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Run_Base/Run_Up-Sheet.png",
+    "name": "Run_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1357
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Run_Base/Run_Up.aseprite",
+    "name": "Run_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 2730
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Slice_Base/Slice_Down-Sheet.png",
+    "name": "Slice_Down-Sheet.png",
+    "ext": ".png",
+    "size": 2780
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Slice_Base/Slice_Down.aseprite",
+    "name": "Slice_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 5011
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Slice_Base/Slice_Side-Sheet.png",
+    "name": "Slice_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2871
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Slice_Base/Slice_Side.aseprite",
+    "name": "Slice_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 5354
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Slice_Base/Slice_Up-Sheet.png",
+    "name": "Slice_Up-Sheet.png",
+    "ext": ".png",
+    "size": 2319
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Slice_Base/Slice_Up.aseprite",
+    "name": "Slice_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 4722
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Walk_Base/Walk_Down-Sheet.png",
+    "name": "Walk_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1424
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Walk_Base/Walk_Down.aseprite",
+    "name": "Walk_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 2828
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side-Sheet.png",
+    "name": "Walk_Side-Sheet.png",
+    "ext": ".png",
+    "size": 1414
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side.aseprite",
+    "name": "Walk_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 2970
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Walk_Base/Walk_Up-Sheet.png",
+    "name": "Walk_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1319
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Walk_Base/Walk_Up.aseprite",
+    "name": "Walk_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 2735
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Watering_Base/Watering_Down-Sheet.png",
+    "name": "Watering_Down-Sheet.png",
+    "ext": ".png",
+    "size": 1841
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Watering_Base/Watering_Down.aseprite",
+    "name": "Watering_Down.aseprite",
+    "ext": ".aseprite",
+    "size": 5058
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Watering_Base/Watering_Side-Sheet.png",
+    "name": "Watering_Side-Sheet.png",
+    "ext": ".png",
+    "size": 2377
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Watering_Base/Watering_Side.aseprite",
+    "name": "Watering_Side.aseprite",
+    "ext": ".aseprite",
+    "size": 5071
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Watering_Base/Watering_Up-Sheet.png",
+    "name": "Watering_Up-Sheet.png",
+    "ext": ".png",
+    "size": 1547
+  },
+  {
+    "rel": "Entities/Characters/Body_A/Animations/Watering_Base/Watering_Up.aseprite",
+    "name": "Watering_Up.aseprite",
+    "ext": ".aseprite",
+    "size": 4179
+  },
+  {
+    "rel": "MockUps/Starter_Village.png",
+    "name": "Starter_Village.png",
+    "ext": ".png",
+    "size": 138559
+  }
+]
